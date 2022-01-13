@@ -4,3 +4,11 @@
 ![image](BeachPhoto.jpg)
 
 ![image](https://lpechayco.github.io/cse15l-lab-reports/BeachPhoto.jpg)
+
+[Link](index.md)
+
+[Link](https://lpechayco.github.io/cse15l-lab-reports/index.md)
+
+[Link](index.html)
+
+[Link](https://lpechayco.github.io/cse15l-lab-reports/index.html)
