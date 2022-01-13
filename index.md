@@ -9,3 +9,16 @@
 
 ## Let's get started:
 
+1. Install Visual Studio Code
+
+<br />
+
+Go to the VScode website [VScodeDownload](https://code.visualstudio.com/download) and follow the instructions on how to install VScode.
+
+<br />
+
+Once you've done that, when you open up VScode, it should look something like this:
+
+<br />
+
+![image]() 
