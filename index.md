@@ -21,4 +21,9 @@ Once you've done that, when you open up VScode, it should look something like th
 
 <br />
 
-![image]() 
+![image](VScodeScreenshot.png)
+
+<br />
+<br />
+
+2. 
