@@ -1,4 +1,4 @@
-# Welcome To CSE15L Students! 
+# Welcome CSE15L Students! 
 # My name is Lauren!
 
 <br />
