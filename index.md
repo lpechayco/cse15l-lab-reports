@@ -9,7 +9,7 @@
 
 ## Let's get started:
 
-1. Install Visual Studio Code
+1) Install Visual Studio Code
 
 <br />
 
@@ -26,7 +26,7 @@ Once you've done that, when you open up VScode, it should look something like th
 <br />
 <br />
 
-2. Remotely Connecting
+2) Remotely Connecting
 
 <br />
 
@@ -89,7 +89,7 @@ Here is another example of what your log-in should look like:
 
 <br />
 
-3. Trying Some Commands
+3) Trying Some Commands
 
 Once you are logged in, try some commands!
 
