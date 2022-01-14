@@ -1,4 +1,4 @@
-# Welcome To My Website! 
+# Welcome To CSE15L Students! 
 # My name is Lauren!
 
 <br />
@@ -32,4 +32,8 @@ Once you've done that, when you open up VScode, it should look something like th
 
 **Only if you're on Windows:**
 <br />
-You
+You need to download a program called [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse), which allows you to connect your computer to other computers with this kind of account.
+
+<br />
+
+Then, go [here](https://sdacs.ucsd.edu/~icc/index.php) to look up your course-specific account for CSE15L.
