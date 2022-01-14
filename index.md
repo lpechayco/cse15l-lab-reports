@@ -26,4 +26,10 @@ Once you've done that, when you open up VScode, it should look something like th
 <br />
 <br />
 
-2. 
+2. Remotely Connecting
+
+<br />
+
+**Only if you're on Windows:**
+<br />
+You
