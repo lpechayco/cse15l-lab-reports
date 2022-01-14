@@ -90,3 +90,21 @@ Here is another example of what your log-in should look like:
 <br />
 
 3. Trying Some Commands
+
+Once you are logged in, try some commands!
+
+<br />
+
+Here are some useful commands:
+
+<br />
+
+![image](commands.png)
+
+<br />
+
+Enter any of these into the terminal. Here is an example of using "ls-lat".
+
+<br />
+
+![image](lslatCommand.png)
