@@ -146,3 +146,12 @@ Here is a screenshot of running the scp command, then logging into the server an
 ![image](runningSCP.png)
 
 <br />
+
+**5) Setting an SSH key**
+
+Every time we log in, we have to retype or copy-paste our password. This can be time-consuming and inefficient. Thankfully, there's a solution: ssh keys!
+
+The idea behind ssh keys is that a program called ssh-keygen creates a pair of files called the *public key* and the *private key*. Essentially, you make a public key on the server and a private key on the client, and when the ssh command is run, it can use the pair of files in place of your password.
+
+Follow this guide to set up your ssh key:
+
