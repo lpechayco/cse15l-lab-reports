@@ -37,3 +37,14 @@ You need to download a program called [OpenSSH](https://docs.microsoft.com/en-us
 <br />
 
 Then, go [here](https://sdacs.ucsd.edu/~icc/index.php) to look up your course-specific account for CSE15L.
+
+<br />
+
+Now, open VScode and open a new terminal by either: Ctrl or Command + `, or use the Terminal → New Terminal menu option, or by clicking the symbols in the bottom left corner.
+<br />
+
+The terminal should look something like this: 
+
+<br />
+
+![image](VScodeTerminal.png)
