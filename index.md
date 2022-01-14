@@ -48,3 +48,45 @@ The terminal should look something like this:
 <br />
 
 ![image](VScodeTerminal.png)
+
+<br />
+
+Now, you should enter your course-specific account information in the terminal. Type "ssh" followed by your specific information. It should look something like this:
+
+<br />
+
+![image](courseSpecificAccountInfo.png)
+
+<br />
+
+Press enter and if this is the first time you are connecting to the server, you will likely get a message like this:
+
+<br />
+
+![image](firstTimeMessage.png)
+
+<br />
+
+Simply type "yes" and press enter, then input your password. Once you're logged in, the whole interaction should look something like this:
+
+<br />
+
+![image](loginPage.png)
+
+<br />
+
+Yay! Now your terminal is connected to a computer in the CSE basement, and any commands you run on your local computer will run on that computer. 
+<br />
+Your computer is the *client* and the computer in the basement is the *server*. 
+
+<br />
+
+Here is another example of what your log-in should look like:
+
+<br />
+
+![image](myLoginPage.png)
+
+<br />
+
+3. Trying Some Commands
