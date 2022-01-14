@@ -9,7 +9,7 @@
 
 ## Let's get started:
 
-1) Install Visual Studio Code
+**1) Install Visual Studio Code**
 
 <br />
 
@@ -26,7 +26,7 @@ Once you've done that, when you open up VScode, it should look something like th
 <br />
 <br />
 
-2) Remotely Connecting
+**2) Remotely Connecting**
 
 <br />
 
@@ -89,7 +89,7 @@ Here is another example of what your log-in should look like:
 
 <br />
 
-3) Trying Some Commands
+**3) Trying Some Commands**
 
 Once you are logged in, try some commands!
 
@@ -108,3 +108,41 @@ Enter any of these into the terminal. Here is an example of using "ls-lat".
 <br />
 
 ![image](lslatCommand.png)
+
+<br />
+
+**NOTE: To log out of the remote server, either press Ctrl-D or type "exit" into the terminal.**
+
+<br />
+
+**4) Moving Files over SSH with scp**
+
+<br />
+
+It is very useful to be able to copy files from your computer to a remote computer. The command to do this is called "scp", and it is always run from the client (your local computer, not connected to ieng6).
+
+<br />
+
+To test this command, make a sample file to copy. I made a file called "WhereAmI.java" and put the following contents into it:
+
+<br />
+
+![image](WhereAmIContents.png)
+
+<br />
+
+Then, in the terminal, you should follow this format to run the command:
+
+<br />
+
+![image](scpCommand.png)
+
+<br />
+
+Here is a screenshot of running the scp command, then logging into the server and running the "ls" command to check that the file was indeed copied over:
+
+<br />
+
+![image](runningSCP.png)
+
+<br />
