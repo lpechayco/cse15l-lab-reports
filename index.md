@@ -155,3 +155,30 @@ The idea behind ssh keys is that a program called ssh-keygen creates a pair of f
 
 Follow this guide to set up your ssh key:
 
+![image](sshKeyGenSetUp.png)
+
+<br />
+
+**Only if you're on Windows:**
+
+Follow the extra "ssh-add" step [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
+
+<br />
+
+Following the set up above created two new files:
+
+the private key: in file "id_rsa"
+
+the public key: in file "id_rsa.pub"
+
+<br />
+
+Now, copy the public key to the .ssh directory of your user account on the server by following these steps:
+
+![image](copyPublicKey.png)
+
+<br />
+
+Once you've completed these steps, just use the "ssh" command like normal and you should be able to log in without having to input your password. It should look something like this:
+
+![image](loginWithoutPass.png)
