@@ -182,3 +182,33 @@ Now, copy the public key to the .ssh directory of your user account on the serve
 Once you've completed these steps, just use the "ssh" command like normal and you should be able to log in without having to input your password. It should look something like this:
 
 ![image](loginWithoutPass.png)
+
+<br />
+
+6) Optimizing Remote Running
+
+<br />
+
+There are many ways to make running commands in the terminal faster and more efficient. 
+
+For example, you can write a command in quotes after the ssh command to run that command directly and immediately log out of the server afterward.
+
+![image](lsFastLogin.png)
+
+<br />
+
+Another example is to use semicolons to run multiple commands on the same line. 
+
+![image](fastLoginWSemicolons.png)
+
+<br />
+
+Here is an example of the result of running the "ls" command with the ssh command:
+
+![image](fastLogin.png)
+
+<br />
+
+Feel free to try out different combinations and commands to optimize your remote running!
+
+## Hope you enjoyed the tutorial!
