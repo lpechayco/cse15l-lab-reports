@@ -4,3 +4,7 @@
 Check out my Lab Reports:
 
 [Lab Report 1](LabReport1.md): where I show you how to log into a course-specific account on ieng6.
+
+<br />
+
+[Lab Report 2](LabReport2.md)
