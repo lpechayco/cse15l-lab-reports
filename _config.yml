@@ -1,1 +1,4 @@
 theme: jekyll-theme-slate
+
+navigation:
+- {file:"LabReport1.md", title:"Lab Report 1"}
