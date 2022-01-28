@@ -57,7 +57,7 @@ Now, you should enter your course-specific account information in the terminal. 
 
 <br />
 
-![image](courseSpecificAccountInfo.png)
+`$ ssh cs15lwi22zz@ieng6.ucsd.edu`
 
 <br />
 
