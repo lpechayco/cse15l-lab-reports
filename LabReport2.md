@@ -2,7 +2,7 @@
 
 # Lab Report 2
 
-Code Change 1:
+**Code Change 1:**
 
 ![image](CodeChangeDiff1.png)
 
@@ -24,3 +24,10 @@ Output of running the file for the version where it was failing:
 
 The failure-inducing input caused the bug in my code to come to light, and caused the symptom of the input to occur. The failure-inducing input was that the link had parentheses within it, which caused the bug to come out that my code wasn't equipped to handle parentheses in the link. This showed the symptom of my code going into an infinite loop and causing Java to return an `OutOfMemoryError`.
 
+<br />
+
+**Code Change 2:**
+
+![image](CodeChangeDiff2.png)
+
+Link to the test file for *failure-inducing input*: [Link](MarkdownParseTest.java)
