@@ -1,7 +1,6 @@
 [back to homepage](index.md)
 
-# Welcome CSE15L Students! 
-# My name is Lauren!
+# Lab Report 1
 
 <br />
 
