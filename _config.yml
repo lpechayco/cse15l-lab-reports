@@ -1,4 +1,4 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
 
 navigation:
 - {file:"LabReport1.md", title:"Lab Report 1"}
