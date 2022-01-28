@@ -101,7 +101,17 @@ Here are some useful commands:
 
 <br />
 
-![image](commands.png)
+`cd~`
+<br />
+`cd`
+<br />
+`ls -lat`
+<br />
+`ls -a`
+<br />
+`cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
+<br />
+`cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
 <br />
 
@@ -137,7 +147,7 @@ Then, in the terminal, you should follow this format to run the command:
 
 <br />
 
-![image](scpCommand.png)
+`scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`
 
 <br />
 
@@ -195,13 +205,13 @@ There are many ways to make running commands in the terminal faster and more eff
 
 For example, you can write a command in quotes after the ssh command to run that command directly and immediately log out of the server afterward.
 
-![image](lsFastLogin.png)
+`$ ssh cs15lwi22@ieng6.ucsd.edu "ls"`
 
 <br />
 
 Another example is to use semicolons to run multiple commands on the same line. 
 
-![image](fastLoginWSemicolons.png)
+`$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
 <br />
 
