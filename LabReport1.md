@@ -1,3 +1,5 @@
+[back to homepage](index.md)
+
 # Welcome CSE15L Students! 
 # My name is Lauren!
 
@@ -212,3 +214,5 @@ Here is an example of the result of running the "ls" command with the ssh comman
 Feel free to try out different combinations and commands to optimize your remote running!
 
 ## Hope you enjoyed the tutorial!
+
+[back to homepage](index.md)
