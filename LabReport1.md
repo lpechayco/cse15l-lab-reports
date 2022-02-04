@@ -64,10 +64,10 @@ Press enter and if this is the first time you are connecting to the server, you 
 
 <br />
 
-``⤇ ssh cs15lwi22zz@ieng6.ucsd.edu
+`⤇ ssh cs15lwi22zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-Are you sure you want to continue connecting (yes/no/[fingerprint])?``
+Are you sure you want to continue connecting (yes/no/[fingerprint])?`
 
 <br />
 
