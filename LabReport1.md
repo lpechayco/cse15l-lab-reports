@@ -56,7 +56,9 @@ Now, you should enter your course-specific account information in the terminal. 
 
 <br />
 
-```$ ssh cs15lwi22zz@ieng6.ucsd.edu```
+```
+$ ssh cs15lwi22zz@ieng6.ucsd.edu
+```
 
 <br />
 
@@ -64,10 +66,12 @@ Press enter and if this is the first time you are connecting to the server, you 
 
 <br />
 
-`⤇ ssh cs15lwi22zz@ieng6.ucsd.edu
+```
+⤇ ssh cs15lwi22zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-Are you sure you want to continue connecting (yes/no/[fingerprint])?`
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
 
 <br />
 
@@ -75,7 +79,26 @@ Simply type "yes" and press enter, then input your password. Once you're logged 
 
 <br />
 
-![image](loginPage.png)
+```
+⤇ ssh cs15lwi22zz@ieng6.ucsd.edu
+The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+Password: 
+Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
+quota: No filesystem specified.
+Hello cs15lwi22zz, you are currently logged into ieng6-203.ucsd.edu
+
+You are using 0% CPU on this system
+
+Cluster Status 
+Hostname     Time    #Users  Load  Averages  
+ieng6-201   23:25:01   0  0.08,  0.17,  0.11
+ieng6-202   23:25:01   1  0.09,  0.15,  0.11
+ieng6-203   23:25:01   1  0.08,  0.15,  0.11
+
+Sun Jan 02, 2022 11:28pm - Prepping cs15lwi22
+```
 
 <br />
 
@@ -103,17 +126,14 @@ Here are some useful commands:
 
 <br />
 
-`cd~`
-<br />
-`cd`
-<br />
-`ls -lat`
-<br />
-`ls -a`
-<br />
-`cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
-<br />
-`cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
+```
+cd~
+cd
+ls -lat
+ls -a
+cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/
+cat /home/linux/ieng6/cs15lwi22/public/hello.txt
+```
 
 <br />
 
@@ -141,7 +161,16 @@ To test this command, make a sample file to copy. I made a file called "WhereAmI
 
 <br />
 
-![image](WhereAmIContents.png)
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
 
 <br />
 
@@ -149,7 +178,9 @@ Then, in the terminal, you should follow this format to run the command:
 
 <br />
 
-`scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`
+```
+scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/
+```
 
 <br />
 
@@ -169,7 +200,30 @@ The idea behind ssh keys is that a program called ssh-keygen creates a pair of f
 
 Follow this guide to set up your ssh key:
 
-![image](sshKeyGenSetUp.png)
+```
+# on client (your computer)
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/joe/.ssh/id_rsa.
+Your public key has been saved in /Users/joe/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 joe@Joes-Mac-mini.local
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|       . . + .   |
+|      . . B o .  |
+|     . . B * +.. |
+|      o S = *.B. |
+|       = = O.*.*+|
+|        + * *.BE+|
+|           +.+.o |
+|             ..  |
++----[SHA256]-----+
+```
 
 <br />
 
@@ -189,7 +243,16 @@ the public key: in file "id_rsa.pub"
 
 Now, copy the public key to the .ssh directory of your user account on the server by following these steps:
 
-![image](copyPublicKey.png)
+```
+$ ssh cs15lwi22zz@ieng6.ucsd.edu
+<Enter Password>
+# now on server
+$ mkdir .ssh
+$ <logout>
+# back on client
+$ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+# You use your username and the path you saw in the command above
+```
 
 <br />
 
@@ -207,13 +270,17 @@ There are many ways to make running commands in the terminal faster and more eff
 
 For example, you can write a command in quotes after the ssh command to run that command directly and immediately log out of the server afterward.
 
-`$ ssh cs15lwi22@ieng6.ucsd.edu "ls"`
+```
+$ ssh cs15lwi22@ieng6.ucsd.edu "ls"
+```
 
 <br />
 
 Another example is to use semicolons to run multiple commands on the same line. 
 
-`$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+```
+$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+```
 
 <br />
 
