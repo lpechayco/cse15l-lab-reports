@@ -8,3 +8,7 @@ Check out my Lab Reports:
 <br />
 
 [Lab Report 2](LabReport2.md): showing code changes.
+
+<br />
+
+[Lab Report 3](lab-report-3-week-6.md): copying whole directories to my ieng6 account.
