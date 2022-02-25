@@ -12,3 +12,7 @@ Check out my Lab Reports:
 <br />
 
 [Lab Report 3](lab-report-3-week-6.md): copying whole directories to my ieng6 account.
+
+<br />
+
+[Lab Report 4](lab-report-4-week-8.md): analyzing snippets of code using different implementations.
