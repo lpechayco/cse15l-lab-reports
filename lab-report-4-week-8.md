@@ -8,9 +8,9 @@
 
 <br />
 
-The link to my group's repository: https://github.com/sallada1/markdown-parse
+The link to my group's repository: [https://github.com/sallada1/markdown-parse](https://github.com/sallada1/markdown-parse)
 
-The link to the repository that my group reviewed: https://github.com/pvijay03/markdown-parse 
+The link to the repository that my group reviewed: [https://github.com/pvijay03/markdown-parse](https://github.com/pvijay03/markdown-parse)
 
 <br />
 
