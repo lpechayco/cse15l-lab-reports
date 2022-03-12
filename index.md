@@ -16,3 +16,7 @@ Check out my Lab Reports:
 <br />
 
 [Lab Report 4](lab-report-4-week-8.md): analyzing snippets of code using different implementations.
+
+<br />
+
+[Lab Report 5](lab-report-5-week-10.md): analyzing different tests and coding implementations of markdown-parse.
